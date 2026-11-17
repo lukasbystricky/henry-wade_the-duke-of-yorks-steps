@@ -33,10 +33,13 @@
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037260</meta>
-		<dc:subject id="subject-2">Police -- Great Britain -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Police--Great Britain--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008109305</meta>
 		<meta property="schema:genre">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Inspector Poole</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta property="schema:abstract">After a wealthy banker’s sudden death is ruled to have been from natural causes, his daughter’s suspicions prompt a detective to take a second look at the case.</meta>
 		<dc:description>
 			&lt;p&gt;Despite the pleadings of his doctor, family, and friends to consider his aneurysm, Sir Garth Fratten, a wealthy banker, refuses to curtail his work schedule. So it comes as no surprise when he dies suddenly and dramatically on the Duke of York’s Steps, except to Inez, his daughter, who does not accept the explanation of natural causes. At her prompting, Detective-Inspector John Poole takes another look, uncovering family secrets and suspicious financial dealings. Could this actually be murder? This classic of detective fiction is the first in a series of Inspector Poole mysteries.&lt;/p&gt;
@@ -52,9 +55,10 @@
 		<link href="https://github.com/standardebooks/henry-wade_the-duke-of-yorks-steps" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry Wade</dc:creator>
 		<meta property="file-as" refines="#author">Wade, Henry</meta>
-		<meta property="schema:alternateName" refines="#author">Sir Henry William Rawson Wade</meta>
+		<meta property="schema:alternateName" refines="#author">Henry William Rawson Wade</meta>
 		<link href="https://en.wikipedia.org/wiki/Henry_Wade" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/no90006741.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">William Orpen</dc:contributor>
 		<meta property="file-as" refines="#artist">Orpen, William</meta>
@@ -70,6 +74,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Gina Russell</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Russell, Gina</meta>
+		<link href="https://github.com/gmrussell234-del" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
