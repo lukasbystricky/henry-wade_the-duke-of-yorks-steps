@@ -52,9 +52,4 @@
 			<reason>B.B.C. has been modernized to BBC.</reason>
 		</ignore>
 	</file>
-	<file path="endnotes.xhtml">
-		<ignore code="m-033">
-			<reason>No annotator is listed in PG</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
