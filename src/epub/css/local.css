@@ -10,11 +10,8 @@ footer{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:signature"],
 p[epub|type~="z3998:salutation"]{
-	font-variant: small-caps;
-}
-
-[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
