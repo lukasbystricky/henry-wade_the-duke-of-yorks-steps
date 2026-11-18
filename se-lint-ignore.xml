@@ -6,39 +6,10 @@
 			<reason>Punctuation is present, but not recognized by lint because it is contained in the quotes around the speaker.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-5.xhtml">
-		<ignore code="t-030">
-			<line>24</line>
-			<reason>C.I.D. has been modernized to CID.</reason>
-		</ignore>
-	</file>
-	<file path="chapter-6.xhtml">
-		<ignore code="t-030">
-			<line>19</line>
-			<line>20</line>
-			<reason>C.I.D. has been modernized to CID.</reason>
-		</ignore>
-	</file>
-	<file path="chapter-7.xhtml">
-		<ignore code="t-030">
-			<line>98</line>
-			<reason>C.I.D. has been modernized to CID.</reason>
-		</ignore>
-		<ignore code="t-032">
-			<line>98</line>
-			<reason>C.I.D. has been modernized to CID.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-15.xhtml">
 		<ignore code="s-023">
 			<line>12</line>
 			<reason>Fictional perfume name. Retaining original case</reason>
-		</ignore>
-	</file>
-	<file path="chapter-20.xhtml">
-		<ignore code="t-030">
-			<line>16</line>
-			<reason>C.I.D. has been modernized to CID.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-26.xhtml">
