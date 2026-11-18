@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-wade/the-duke-of-yorks-steps</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-11-18T16:55:53Z</dc:date>
+		<meta property="dcterms:modified">2026-11-18T16:55:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -42,13 +42,13 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta property="schema:abstract">After a wealthy banker’s sudden death is ruled to have been from natural causes, his daughter’s suspicions prompt a detective to take a second look at the case.</meta>
 		<dc:description>
-			&lt;p&gt;Despite the pleadings of his doctor, family, and friends to consider his aneurysm, Sir Garth Fratten, a wealthy banker, refuses to curtail his work schedule. So it comes as no surprise when he dies suddenly and dramatically on the Duke of York’s Steps, except to Inez, his daughter, who does not accept the explanation of natural causes. At her prompting, Detective-Inspector John Poole takes another look, uncovering family secrets and suspicious financial dealings. Could this actually be murder? This classic of detective fiction is the first in a series of Inspector Poole mysteries.&lt;/p&gt;
+			&lt;p&gt;Despite the pleadings of his doctor, family, and friends to consider his aneurysm, Sir Garth Fratten, a wealthy banker, refuses to curtail his work schedule. So it comes as a surprise to no one when he dies suddenly and dramatically on the Duke of York’s Steps—except to Inez, his daughter, who doesn’t accept that he died of natural causes. At her prompting, Detective-Inspector John Poole takes another look, uncovering family secrets and suspicious financial dealings. Could Fratten have been murdered?&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/75318</dc:source>
 		<dc:source>https://archive.org/details/dukeofyorkssteps00wade</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">80420</meta>
+		<meta property="schema:educationalLevel">71.55</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Duke_of_York%27s_Steps" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -62,6 +62,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">William Orpen</dc:contributor>
 		<meta property="file-as" refines="#artist">Orpen, William</meta>
+		<meta property="schema:alternateName" refines="#artist">William Newenham Montague Orpen</meta>
 		<link href="https://en.wikipedia.org/wiki/William_Orpen" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81102759.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -81,6 +82,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
